@@ -1,0 +1,67 @@
+{
+  "title": "电影级动作片段逐镜头高密拉片与分镜复刻结题全案",
+  "video_path": "reference_video/sample.mp4",
+  "video_meta": {
+    "fps": 30.0,
+    "resolution": "1920x1080",
+    "duration_ms": 30000
+  },
+  "shots": [
+    {
+      "id": "01",
+      "title": "SHOT 01 · 极远景雷云与要塞建立",
+      "desc": "冷调暴雨倾盆，雷光划破夜空映照野兽派悬崖科研基座与战术停机坪",
+      "start_ms": 0,
+      "end_ms": 2200,
+      "accent": "#58a6ff",
+      "frames": [0, 15, 30, 45, 60],
+      "labels": [
+        "F000 | 00:00.0s 漆黑雨夜狂风",
+        "F015 | 00:00.5s 远空冷蓝闪电引爆",
+        "F030 | 00:01.0s 暴雨倾泻在水泥停机坪",
+        "F045 | 00:01.5s 战术旋翼机航灯闪烁",
+        "F060 | 00:02.0s 镜头缓缓推近破损大门"
+      ],
+      "six_d": {
+        "camera": "极远景 (EWS) -> 缓慢下移慢推，广角 24mm，建立压抑宏观空间",
+        "vfx": "高对比冷青灰雨夜，闪电冷白体积光瞬间过曝，雨丝飞溅与镜面积水倒影",
+        "story": "交代风暴深夜的绝密实验设施与外界隔离的肃杀气氛",
+        "action": "自然界重力流体与强风力学，战术机体随强风微幅震颤",
+        "psychology": "风雨欲来的死寂与压迫感",
+        "direction": "环境建立镜头 (Establishing Shot)，声画对位为后续战斗积蓄势能"
+      },
+      "reusable_prompt": "Cinematic extreme wide shot (EWS), a brutalist concrete scientific research fortress carved into sea cliffs, violent midnight thunderstorm, pouring rain puddles reflecting lightning flash, matte-black VTOL aircraft on tactical helipad, Roger Deakins cinematography, 8k resolution, Arri Alexa 65."
+    },
+    {
+      "id": "02",
+      "title": "SHOT 02 · 核心冲击波形变与对决爆点",
+      "desc": "超高密度流体演变：等离子坍缩核 -> 垂直引力环 -> 顺时针旋转贴地涡流 -> 半球光幕与双马赫环",
+      "start_ms": 12500,
+      "end_ms": 14200,
+      "accent": "#f85149",
+      "frames": [375, 380, 385, 390, 395, 400, 405, 410, 415, 420, 425],
+      "labels": [
+        "F375 | 00:12.5s 拳锋相撞能量聚核坍缩",
+        "F380 | 00:12.6s 纯黑白高光负片冲击帧",
+        "F385 | 00:12.8s 金色等离子火球球体暴胀",
+        "F390 | 00:13.0s 垂直引力拱门空气透镜畸变",
+        "F395 | 00:13.1s 贴地金色涡流犁碎混凝土",
+        "F400 | 00:13.3s 双重马赫环向镜头极速扩散",
+        "F405 | 00:13.5s 半球巨型金光穹顶完全撑开",
+        "F410 | 00:13.6s 超压冲击波掀飞外围装甲士兵",
+        "F415 | 00:13.8s 烟尘等离子雾气填满视口",
+        "F420 | 00:14.0s 强烈金红光芒骤降为暗影",
+        "F425 | 00:14.2s 爆心烟尘扩散切入下一镜头"
+      ],
+      "six_d": {
+        "camera": "中近景 (Medium Close-Up) -> 剧烈震屏 (Screen Shake) -> 轴线剧烈冲撞",
+        "vfx": "原画级黑白负片冲击帧 (Impact Frame) -> 金炽色流体等离子激波 -> 双重马赫环穹顶",
+        "story": "攻防势能瞬间失衡，神级力量彻底瓦解敌方阵线",
+        "action": "零位移打击制动 (Hit Stop) -> 爆炸动能向外径向推散，伴随超音速气浪破壁",
+        "psychology": "毁灭性神性威压，无法抗衡的绝对力量碾压",
+        "direction": "冲击帧单帧轰面，利用流体演变三态节奏（聚能-涡流-穹顶）最大化视觉震撼"
+      },
+      "reusable_prompt": "Cinematic blockbuster impact frame, hyper-dense golden plasma shockwave exploding outward, vertical gravitational arc distorting air into concentric Mach rings, ground concrete shattering into spinning vortex, volumetric golden rays cutting through dense black smoke, Akira-level anime impact explosion in photorealistic CGI, 8k."
+    }
+  ]
+}
